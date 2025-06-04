@@ -1,0 +1,112 @@
+body {
+    background-color: #9f8a64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .main {
+    border: 2px solid #122f4c;
+    border-radius: 20px;
+    width: 50vw;
+    height: 70vh;
+    padding: 1rem;
+    text-align: center;
+    background-color: #122f4c;
+    overflow-y: auto;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+  }
+  
+  #name {
+    color: aliceblue;
+    margin: 10px 0;
+  }
+  
+  .name_box {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .task-container {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: #f8faf8;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .task-input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    background: transparent;
+    color: rgb(9, 9, 9);
+    outline: none;
+  }
+  
+  .add-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    margin: auto;
+    font-size: 16px;
+    border-left: 2px solid #ccc;
+    border-radius: 20px;
+    background: #100347;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color:#29870a;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e3d5a;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin: 10px;
+  }
+  
+  .task-text {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .delete-btn {
+    background-color: #29870a;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e3420d;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
